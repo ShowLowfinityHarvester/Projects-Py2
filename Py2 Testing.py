@@ -1,7 +1,7 @@
 # These are school projects! Github page may be all cluttered until 2025 or 2026.
 
 shape = input("What shape? -> ")
-while true:
+while True:
     try:
             height = int(input("How tall is the shape? -> "))
             break
