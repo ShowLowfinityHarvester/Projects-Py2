@@ -6,7 +6,7 @@ while True:
             height = int(input("How tall is the shape? -> "))
             break
     except ValueError:
-          print("Number. ")
+          print("Please enter in a number. (Do not put commas in your numbers!)")
 
 shapes = {
 
