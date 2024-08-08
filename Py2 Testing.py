@@ -1,8 +1,20 @@
 # These are school projects! Github page may be all cluttered until 2025 or 2026.
 
-friends = { "Shane" : 10, "Samantha" : 9, "Shiloh" : 12, "Sean" : 11 }
+shape = input("What shape? -> ")
+height = int(input("How tall is the shape? -> "))
 
-friends["Sebastian"] = 8
-print(friends)
-friends.pop("Shiloh")
-print(friends)
+shapes = {
+
+"Triangle": 8,
+
+"Circle": 15,
+
+"Square": 10,
+
+"Rectangle" : 12
+
+}
+
+shapes[shape] = height
+
+print(shapes)
