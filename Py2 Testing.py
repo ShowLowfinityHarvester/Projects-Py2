@@ -1,25 +1,15 @@
 # These are school projects! Github page may be all cluttered until 2025 or 2026.
 
-shape = input("What shape? -> ")
-while True:
-    try:
-            height = int(input("How tall is the shape? -> "))
-            break
-    except ValueError:
-          print("Please enter in a number. (Do not put commas in your numbers!)")
+trees = { "aspen" : 75, "pine" : 82, "maple" : 60, "oak" : 65, "willow" : 80, "cottonwood" : 100 }
 
-shapes = {
+print("The following is a list of trees to plant: ")
+print(trees)
+tree = input("Tree to remove? -> ")
 
-"Triangle": 8,
 
-"Circle": 15,
 
-"Square": 10,
 
-"Rectangle" : 12
+trees.pop(tree)
 
-}
 
-shapes[shape] = height
-
-print(shapes)
+print(trees)
