@@ -8,3 +8,5 @@ while True:
             break
     except ValueError:
           print("Please enter in a number.")
+          
+newdino = [dino]
