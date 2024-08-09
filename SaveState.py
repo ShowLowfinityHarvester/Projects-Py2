@@ -245,3 +245,28 @@ print(mountains["Vesuvius"])
 mountains["Kilimanjaro"] = 8
 
 print(mountains)
+
+# Adding to and removing from dictionaries
+
+goals = { "piano" : 5, "run" : 3, "paint" : 2, "serve" : 7, "homework" : 7}
+
+goal = input("goal to remove? -> ")
+
+
+goals["race"] = 8 # adds
+
+goals.pop(goal) # Removes
+
+
+print(goals)
+
+# Dictionaries continued
+
+coins = { "pennies" : 1, "nickels" : 2, "dimes" : 3, "quarters" : 4,}
+
+coins["silver dollar"] = 5
+
+coins.pop("pennies")
+
+print(coins)
+print(len(coins))
