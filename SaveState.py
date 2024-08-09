@@ -270,3 +270,9 @@ coins.pop("pennies")
 
 print(coins)
 print(len(coins))
+
+# Looping through a dictionary
+
+measurement = {"length": 10, "width": 5, "depth": 3}
+for x in measurement.values():
+    print(x)
