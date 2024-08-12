@@ -2,23 +2,25 @@
 
 while True:
     try: 
-        value1 = int(input("How many people is Amanda bringnig? -> "))
+        value1 = int(input("pick a number -> "))
         break
     except ValueError:
         print("Please enter in a number, not a name!")
 while True:
     try: 
-        value2 = int(input("How many people is Jane bringnig? -> "))
+        value2 = int(input("Pick another number -> "))
         break
     except ValueError:
         print("Please enter in a number, noT a name!")
 
 
-group = { "Fred" : 12, "Jackson" : 15, "Sophie" : 20, "Amanda" : value1, "Jane" : value2, }
+group = { 3 : 10, 5 : 3, 10 : 6, 4 : 30, value1 : value2 }
+
+
 
 total = 0
+for x,y in group.items():
+	total += x * y
 
-for x in group.values():
-	total += x
-	
 print(total)
+
