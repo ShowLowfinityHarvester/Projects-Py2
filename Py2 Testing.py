@@ -21,4 +21,4 @@ total = 0
 for x in group.values():
 	total += x
 	
-print(x)
+print(total)
