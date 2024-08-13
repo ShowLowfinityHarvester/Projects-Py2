@@ -286,3 +286,10 @@ for x in ride.values():
         print("This person is tall enough to ride.")
 else:
     print("This person is too short to ride.")
+
+# Tuples
+
+grades = (95, 70, 85, 92, 100)
+print(grades)
+print(grades[-2])
+print(grades[0:3])
