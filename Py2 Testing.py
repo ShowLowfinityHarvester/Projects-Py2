@@ -3,4 +3,5 @@
 friends = ("Tom", "Donna", "Paul", "Albuquerque", "Holbrook", "ShowLow", "Winslow", "Flagstaff")
 
 print(friends[-3])
-print(friends[0:3])
+print(friends[5])
+print(friends[0:4])
