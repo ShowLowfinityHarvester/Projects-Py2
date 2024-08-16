@@ -4,8 +4,9 @@ mult_total = 1
 sum_total = 0
 
 for x in range(1, number+1):
-    sum_total = number * mult_total
+   mult_total *= x
+   sum_total += mult_total
 
-print((range(x)))
+print(sum_total)
 
-# incomplete and buggy
+# receives one number as the input, then calculates the sum of all factorials of its factorial
