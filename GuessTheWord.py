@@ -1,9 +1,9 @@
 # These are school projects! Github page may be all cluttered until 2025 or 2026.
 
 NMcityNames = ["Albuquerque", "Belen", "Curry", "LosAlamos", "LosRanchos", "RioRancho", "Cochiti", "Ruidoso", "Quay", "Hobbs", "Carlsbad"]
-PickANum = int(input("Choose a number between 0-10: -> "))
+number = int(input("Choose a number between 0-10: -> "))
 
-InpCity = NMcityNames[PickANum]
+InpCity = NMcityNames[number]
 letters = list(InpCity)
 turns = 12
 
