@@ -8,5 +8,3 @@ for x in range(1, number+1):
    sum_total += mult_total
 
 print(sum_total)
-
-# receives one number as the input, then calculates the sum of all factorials of its factorial
