@@ -1,10 +1,3 @@
-number = int(input("What number do you want to check? -> "))
+NMcityNames = ["Albuquerque", "Belen", "Curry", "LosAlamos", "Los Ranchos", "RioRancho", "Cochiti", "Ruidoso", "Quay", "Hobbs", "Carlsbad"]
+PickANum = int(input("Choose a number betweem 0-10 -> "))
 
-mult_total = 1
-sum_total = 0
-
-for x in range(1, number+1):
-   mult_total *= x
-   sum_total += mult_total
-
-print(sum_total)
